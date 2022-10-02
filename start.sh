@@ -9,4 +9,4 @@ fi
 cd /moviefinderbot
 pip3 install -U -r requirements.txt
 echo "Starting Bot....💥"
-python3 bot.py
+python3 https://github.com/Rajneesh058/moviefinderbot/blob/4e40892df4dd01ccd1f665fd5f8d37d87e7533fb/bot.py
