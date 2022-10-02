@@ -7,10 +7,10 @@
 <a href="https://youtube.com/channel/UCFDpDpnOgcoztiiIkjnJYfw">
   <img src="https://user-images.githubusercontent.com/105805201/193200984-945641aa-05c9-41ce-b6a2-13a876a8832b.svg" width="150">
 
-[![Stars](https://user-images.githubusercontent.com/105805201/193201047-3d9aa592-1c4e-4b17-8e0d-e3cfcc66176c.svg)](https://github.com/Moviesindna/moviefinderbot/stargazers)
-[![Forks](https://user-images.githubusercontent.com/105805201/193201090-73f7ff5d-be1d-4668-8a31-6f544aab9dba.svg)](https://github.com/Moviesindna/moviefinderbot/network/members)
-[![Size](https://user-images.githubusercontent.com/105805201/193201170-b389f999-c07e-4d0f-8aee-5701a6263fbc.svg)](https://github.com/Moviesindna/moviefinderbot)   
-[![Open Source happy ](https://user-images.githubusercontent.com/105805201/193201236-21414dcf-8978-4fb3-b53c-c6c2dc846a53.svg)](https://github.com/Moviesindna/moviefinderbot)   
+[![Stars](https://user-images.githubusercontent.com/105805201/193201047-3d9aa592-1c4e-4b17-8e0d-e3cfcc66176c.svg)](https://github.com/Rajneesh058/moviefinderbot/stargazers)
+[![Forks](https://user-images.githubusercontent.com/105805201/193201090-73f7ff5d-be1d-4668-8a31-6f544aab9dba.svg)](https://github.com/Rajneesh058/moviefinderbot/network/members)
+[![Size](https://user-images.githubusercontent.com/105805201/193201170-b389f999-c07e-4d0f-8aee-5701a6263fbc.svg)](https://github.com/Rajneesh058/moviefinderbot)   
+[![Open Source happy ](https://user-images.githubusercontent.com/105805201/193201236-21414dcf-8978-4fb3-b53c-c6c2dc846a53.svg)](https://github.com/Rajneesh058/moviefinderbot)   
 ## Features
 
 - [x] Auto Filter
