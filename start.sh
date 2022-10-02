@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Moviesindna/moviefinderbot.git /  moviefinderbot        
+  git clone https://github.com/Rajneesh058/moviefinderbot.git / moviefinderbot        
 
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /moviefinderbot
