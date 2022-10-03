@@ -47,14 +47,16 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/FILMY_PITARA'),
-            InlineKeyboardButton('☎️CONTACT ME', url='https://t.me/Rajneesh_Singh_Tomar'),
+            InlineKeyboardButton('⚜️ CHANNEL ⚜️', url='https://t.me/FILMY_PITARA'),
+            InlineKeyboardButton('☎️CONTACT ME☎️', url='https://t.me/Rajneesh_Singh_Tomar'),
+            InlineKeyboardButton('🔍Search inline🔍', switch_inline_query_current_chat=''),
             InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/FILMY_PITARA')
             ],[
             InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
-            InlineKeyboardButton('🌷Join my group', url='https://t.me/Hindi_Movie_Group_1'),
+            InlineKeyboardButton('🌷Join my group👉', url='https://t.me/Hindi_Movie_Group_1'),
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
             ],[
+            InlineKeyboardButton('🔗 Url Shortner 🔗', callback_data='urlshortn'),
             InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -99,12 +101,15 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/FILMY_PITARA'),
             InlineKeyboardButton('☎️ CONTACT ME', url='https://t.me/Rajneesh_Singh_Tomar'),
+            InlineKeyboardButton('Search inline', switch_inline_query_current_chat=''),
             InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/FILMY_PITARA')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('🌷Join my group', url='https://t.me/Hindi_Movie_Group_1'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
-            ]]
+            ],[
+            InlineKeyboardButton('🔗 Url Shortner 🔗', callback_data='urlshortn')
+             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
