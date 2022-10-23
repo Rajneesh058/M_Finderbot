@@ -41,6 +41,7 @@ MANIFEST
 
 # Installer logs
 pip-log.txt
+pip-delete-this-directory.txt
 
 # Unit test / coverage reports
 htmlcov/
@@ -123,6 +124,11 @@ venv.bak/
 .spyderproject
 .spyproject
 
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
 
 # mypy
 .mypy_cache/
