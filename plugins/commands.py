@@ -53,13 +53,13 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/FILMY_PITARA'),
             InlineKeyboardButton('❗️Bot Owner❗️', callback_data='owner'),
-            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Make_Your_Own_Bot_here')
+            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/F_pitara')
             ],[
             InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('Search inline', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('❤️ Donation ❤️', callback_data='dinette')
+            InlineKeyboardButton('❤️ Donation ❤️', callback_data='owner')
             ],[
             InlineKeyboardButton('💠 Bot Channel 💠', url='https://t.me/Epic_creation_bots')
 
@@ -106,13 +106,13 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/FILMY_PITARA'),
             InlineKeyboardButton('❗️Bot Owner❗️', callback_data='owner'),
-            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Make_Your_Own_Bot_here')
+            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/F_pitara')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('Search inline', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('❤️ Donation ❤️', callback_data='dinette')
+            InlineKeyboardButton('❤️ Donation ❤️', callback_data='owner')
             ],[
             InlineKeyboardButton('💠 Bot Channel 💠', url='https://t.me/Epic_creation_bots')
             
