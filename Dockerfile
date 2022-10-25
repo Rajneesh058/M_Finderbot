@@ -6,7 +6,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /moviefinderbot
-WORKDIR /moviefinderbot
+RUN mkdir /M_Finderbot
+WORKDIR /M_Finderbot
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
