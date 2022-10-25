@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍
-You Have To Join @DTG_TV To Use This Bot"""
+You Have To Join @F_pitara To Use This Bot"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
@@ -13,13 +13,13 @@ You Have To Join @DTG_TV To Use This Bot"""
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
+- Source - https://github.com/Rajneesh058/m_finder_bot  
 <b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
+- <a href=https://t.me/FILMY_PITARA>Team_Epic_Creations</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and M_Finderbot will respond whenever a keyword is found the message
 <b>NOTE:</b>
-1. eva maria should have admin privillage.
+1. Epic Creations should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 <b>Commands and Usage:</b>
@@ -28,13 +28,13 @@ You Have To Join @DTG_TV To Use This Bot"""
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
-- Eva Maria Supports both url and alert inline buttons.
+- M_Finderbot Supports both url and alert inline buttons.
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. M_Finderbot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https://t.me/FILMY_PITARA)</code>
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
@@ -55,7 +55,7 @@ You Have To Join @DTG_TV To Use This Bot"""
 • /connections - <code>list all your connections</code>"""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 <b>NOTE:</b>
-these are the extra features of Eva Maria
+these are the extra features of M_Finderbot
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
 • /info  - <code>get information about a user.</code>
@@ -90,6 +90,17 @@ Added By - {}
 ID - <code>{}</code>
 Name - {}
 """
+    START_TXT = """<b>Hay {},
+
+I'm ⚡️ Powerful Auto-Filter Bot...
+
+😎 You Can Use Me As A Auto-filter in Your Group ....
+
+Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There...😎
+
+⚠️ More Help Check Help Button Below
+
+©️Mantained Bʏ  @Rajneesh_Singh_Tomar</b>"""
 
     DONATE_TXT =  """<b>Donation</b>
    <b>Developer is Super Noob..  Just Learning from Official Docs..  Please Donate the developer for Keeping the Service Alive...</b>
@@ -100,4 +111,4 @@ Name - {}
 ✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲     
 ✮ 𝗣𝗮𝘆𝗣𝗮𝗹
 _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/DTG_Admin_bot><b>Admin Of DTG TV</b></a> ᚛━━━━━━━━━━━━"""
+━━━━━━━━━━━━᚜ <a href=https://t.me/Rajneesh_Singh_Tomar><b>Admin Of Filmy Pitara</b></a> ᚛━━━━━━━━━━━━"""
