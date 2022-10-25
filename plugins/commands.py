@@ -51,25 +51,18 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/FILMY_PITARA'),
+            InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/FILMY_PITARA'),
+            InlineKeyboardButton('❗️Bot Owner❗️', callback_data='owner'),
+            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Make_Your_Own_Bot_here')
             ],[
-            InlineKeyboardButton('☎️ CONTACT ME', url='https://t.me/Rajneesh_Singh_Tomar'),
-            ],[
-            InlineKeyboardButton('Search inline', switch_inline_query_current_chat=''),
-            ],[
-            InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/FILMY_PITARA')
-            ],[
-           InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
-            ],[
-            InlineKeyboardButton('🌷Join my group👉', url='https://t.me/Hindi_Movie_Group_1'),
-            ],[
+            InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
             ],[
-            
-
+            InlineKeyboardButton('Search inline', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('❤️ Donation ❤️', callback_data='dinette')
+            ],[
             InlineKeyboardButton('💠 Bot Channel 💠', url='https://t.me/Epic_creation_bots')
 
-            
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -109,21 +102,17 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('✳️ Add Me To Your Groups ✳️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚜️ CHANNEL ⚜️', url='https://t.me/FILMY_PITARA'),
+            InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/FILMY_PITARA'),
+            InlineKeyboardButton('❗️Bot Owner❗️', callback_data='owner'),
+            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/Make_Your_Own_Bot_here')
             ],[
-            InlineKeyboardButton('☎️CONTACT ME☎️', url='https://t.me/Rajneesh_Singh_Tomar'),
+            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍Search inline🔍', switch_inline_query_current_chat=''),
-            ],[
-            InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/FILMY_PITARA')
-            ],[
-             InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
-            ],[
-            InlineKeyboardButton('🌷Join my group👉', url='https://t.me/Hindi_Movie_Group_1'),
-            ],[
-            InlineKeyboardButton('♻️ About ♻️', callback_data='about')
+            InlineKeyboardButton('Search inline', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('❤️ Donation ❤️', callback_data='dinette')
             ],[
             InlineKeyboardButton('💠 Bot Channel 💠', url='https://t.me/Epic_creation_bots')
             
