@@ -52,17 +52,17 @@ async def start(client, message):
             InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/FILMY_PITARA'),
-
+            ],[
             InlineKeyboardButton('☎️ CONTACT ME', url='https://t.me/Rajneesh_Singh_Tomar'),
-
+            ],[
             InlineKeyboardButton('Search inline', switch_inline_query_current_chat=''),
-
+            ],[
             InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/FILMY_PITARA')
             ],[
            InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
-
+            ],[
             InlineKeyboardButton('🌷Join my group👉', url='https://t.me/Hindi_Movie_Group_1'),
-
+            ],[
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
             ],[
             
@@ -112,17 +112,17 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('⚜️ CHANNEL ⚜️', url='https://t.me/FILMY_PITARA'),
-
+            ],[
             InlineKeyboardButton('☎️CONTACT ME☎️', url='https://t.me/Rajneesh_Singh_Tomar'),
-
+            ],[
             InlineKeyboardButton('🔍Search inline🔍', switch_inline_query_current_chat=''),
-
+            ],[
             InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/FILMY_PITARA')
             ],[
              InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
-
+            ],[
             InlineKeyboardButton('🌷Join my group👉', url='https://t.me/Hindi_Movie_Group_1'),
-
+            ],[
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('💠 Bot Channel 💠', url='https://t.me/Epic_creation_bots')
