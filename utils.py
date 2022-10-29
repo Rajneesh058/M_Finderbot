@@ -376,7 +376,79 @@ def humanbytes(size):
         n += 1
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
 
-GET /v1/tp/filename?SHORTENER_API=xxx&rid=xxx
+Usage: Turn other people's links into your own.
+
+Host: https://diskuploader.mypowerdisk.com
+
+API: /v1/tp/cp
+
+Request
+
+```json
+
+{
+
+"token": "",
+
+"link": ""
+
+}
+
+```
+
+response
+
+```json
+
+{
+
+"sharelink": ""
+
+}
+
+```
+
+Note:
+
+It returns 400 when the token or link is invalid.
+
+Example:
+
+Do not use the tokens below，please use your own instead.
+
+Curl:
+
+curl -X POST --location
+
+"https://diskuploader.mypowerdisk.com/v1/tp/cp" \
+
+-H "Content-Type: application/json" \
+
+-d "{
+
+\"token\": \"us5CqX8oandALtQ86FLq\",
+
+\"link\": \"https://mdisk.me/convertor/2x3/MZdAES\"
+
+}"
+
+Python Code:
+
+import requests
+
+url = 'https://diskuploader.mypowerdisk.com/v1/tp/cp'
+
+param = {'token':
+
+'us5CqX8oandALtQ86FLq','link':'https://mdisk.me/convertor/2x3/MZdAES'
+
+}
+
+res = requests.post(url, json = param)
+
+print(res.json())
+
+GET /v1/tp/filename?token=xxx&rid=xxx
 
 response
 
@@ -400,8 +472,70 @@ url = 'https://diskuploader.mypowerdisk.com/v1/tp/filename'
 
 res =
 
-requests.get(url,params={'SHORTENER_API':'l3ae9WQ7ru5ys5Dxxc3O','rid':'MZdAES
+requests.get(url,params={'token':'l3ae9WQ7ru5ys5Dxxc3O','rid':'MZdAES
 
 '})
 
 print(res.json())
+
+POST /v1/tp/info
+
+request
+
+```json
+
+{
+
+"token": "",
+
+"filename": "",
+
+"rid": ""
+
+}
+
+```
+
+response
+
+```json
+
+{
+
+"status": "ok"
+
+}
+
+```
+
+Python Code:
+
+import requests
+
+url = 'https://diskuploader.mypowerdisk.com/v1/tp/info'
+
+param = {'token':
+
+'l3ae9WQ7ru5ys5Dxxc3O','rid':'MZdAES','filename':'name_1'}
+
+res = requests.post(url, json = param)
+
+print(res.json())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
