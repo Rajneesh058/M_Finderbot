@@ -376,11 +376,32 @@ def humanbytes(size):
         n += 1
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
 
-shortz = shortzy.Shortzy(SHORTENER_API, "mdisk.me")
-async def get_shortlink(link):
-    if SHORTENER_API:
-        if LONG_DROPLINK_URL == "True" or LONG_DROPLINK_URL is True:
-            return await shortz.get_quick_link(link)
-        else:
-            return await shortz.convert(link, silently_fail=False)
-    return link
+GET /v1/tp/filename?SHORTENER_API=xxx&rid=xxx
+
+response
+
+```json
+
+{
+
+"filename": "xxx"
+
+}
+
+```
+
+eg: https://mdisk.me/convertor/2x3/MZdAES
+
+Python Code:
+
+import requests
+
+url = 'https://diskuploader.mypowerdisk.com/v1/tp/filename'
+
+res =
+
+requests.get(url,params={'SHORTENER_API':'l3ae9WQ7ru5ys5Dxxc3O','rid':'MZdAES
+
+'})
+
+print(res.json())
